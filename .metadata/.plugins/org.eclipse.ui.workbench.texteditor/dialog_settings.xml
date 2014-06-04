@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<item value=".makeSync" key="selection"/>
+		<list key="findhistory">
+			<item value=".makeSync"/>
+			<item value="makeSync"/>
+			<item value="TestMult"/>
+			<item value="testMult"/>
+			<item value="testMuls"/>
+			<item value="synceeID"/>
+			<item value="makeSy"/>
+			<item value="onAccepted"/>
+		</list>
+	</section>
+</section>

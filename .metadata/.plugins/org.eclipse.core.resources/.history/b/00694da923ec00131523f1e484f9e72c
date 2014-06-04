@@ -12,7 +12,6 @@
 		<meta name="Robots" content="index,follow" />
 
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
-		<link rel="stylesheet" href="css/entry.css" type="text/css" />
 		<link rel="stylesheet" href="css/dropdown.css" type="text/css" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
@@ -145,10 +144,7 @@
 							<a href="#">Some action</a>
 						</li>
 						<li>
-							<div class="monster">
-								Controller
-								<img class="solida" src="https://www.google.pl/logos/doodles/2014/25th-anniversary-of-first-free-elections-in-poland-5727753051570176-hp.jpg" />
-								</div>
+							<div class="monster">Controller</div>
 							<!-- <a href="#">Some other action</a> -->
 						</li>
 						<li class="divider"></li>

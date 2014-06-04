@@ -1,0 +1,6 @@
+.monster {
+	background-color: #269ABC;
+	color: #F2F2F2;
+	display: block;
+	height: 50px;
+}

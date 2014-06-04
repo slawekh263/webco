@@ -1,0 +1,190 @@
+!SESSION 2014-05-18 19:21:24.484 -----------------------------------------------
+eclipse.buildId=3.4.2.201308081805
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 4 2 2014-05-18 19:25:09.421
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration type id "org.eclipse.ant.AntBuilderLaunchConfigurationType" does not exist.
+Possible causes:
+	Missing specification of a launch type (missing plug-in)
+	Incorrect launch configuration XML
+	at org.eclipse.debug.internal.core.LaunchConfigurationInfo.initializeFromXML(LaunchConfigurationInfo.java:509)
+	at org.eclipse.debug.internal.core.LaunchManager.createInfoFromXML(LaunchManager.java:920)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1322)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:402)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getResourcesForBuildScope(ExternalToolsCoreUtil.java:179)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:79)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.aptana.js.internal.core.index.JSMetadataLoader$1.run(JSMetadataLoader.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.debug.core 4 5020 2014-05-18 19:25:09.421
+!MESSAGE Launch configuration type id "org.eclipse.ant.AntBuilderLaunchConfigurationType" does not exist.
+Possible causes:
+	Missing specification of a launch type (missing plug-in)
+	Incorrect launch configuration XML
+!SUBENTRY 1 org.eclipse.debug.core 4 5020 2014-05-18 19:25:09.421
+!MESSAGE Launch configuration type id "org.eclipse.ant.AntBuilderLaunchConfigurationType" does not exist.
+Possible causes:
+	Missing specification of a launch type (missing plug-in)
+	Incorrect launch configuration XML
+
+!ENTRY org.eclipse.core.resources 4 75 2014-05-18 19:25:09.437
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.core.externaltools 4 75 2014-05-18 19:25:09.437
+!MESSAGE Errors running builder 'Integrated External Tool Builder' on project 'webims-jcom-spaces-app'.
+!STACK 1
+org.eclipse.debug.core.DebugException: Launch configuration type id "org.eclipse.ant.AntBuilderLaunchConfigurationType" does not exist.
+Possible causes:
+	Missing specification of a launch type (missing plug-in)
+	Incorrect launch configuration XML
+	at org.eclipse.debug.internal.core.LaunchConfigurationInfo.initializeFromXML(LaunchConfigurationInfo.java:509)
+	at org.eclipse.debug.internal.core.LaunchManager.createInfoFromXML(LaunchManager.java:920)
+	at org.eclipse.debug.internal.core.LaunchManager.getInfo(LaunchManager.java:1322)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getInfo(LaunchConfiguration.java:453)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.getAttribute(LaunchConfiguration.java:402)
+	at org.eclipse.core.externaltools.internal.launchConfigurations.ExternalToolsCoreUtil.getResourcesForBuildScope(ExternalToolsCoreUtil.java:179)
+	at org.eclipse.core.externaltools.internal.model.ExternalToolBuilder.build(ExternalToolBuilder.java:79)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:513)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:422)
+	at com.aptana.js.internal.core.index.JSMetadataLoader$1.run(JSMetadataLoader.java:136)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 2 org.eclipse.debug.core 4 5020 2014-05-18 19:25:09.437
+!MESSAGE Launch configuration type id "org.eclipse.ant.AntBuilderLaunchConfigurationType" does not exist.
+Possible causes:
+	Missing specification of a launch type (missing plug-in)
+	Incorrect launch configuration XML
+!SUBENTRY 1 org.eclipse.debug.core 4 5020 2014-05-18 19:25:09.437
+!MESSAGE Launch configuration type id "org.eclipse.ant.AntBuilderLaunchConfigurationType" does not exist.
+Possible causes:
+	Missing specification of a launch type (missing plug-in)
+	Incorrect launch configuration XML
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:26.250
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:26.250
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:26.265
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:26.265
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:26.968
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:27.062
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:28.609
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:30:28.687
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:00.328
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:00.328
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:00.328
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:00.343
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:01.171
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:01.203
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:02.250
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:02.281
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:02.546
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:02.562
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:03.734
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:03.734
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:04.421
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:04.421
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:09.703
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:10.078
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:10.078
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:10.468
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:10.843
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:10.953
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:11.218
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+
+!ENTRY com.aptana.editor.common 4 0 2014-05-18 19:37:11.265
+!MESSAGE (Build 3.4.2.201308081805) [ERROR]  The input of the content provider should be the IParseRootNode, not the editor!
+!SESSION 2014-06-04 21:44:38.312 -----------------------------------------------
+eclipse.buildId=3.4.2.201308081805
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2014-06-04 21:47:51.406
+!MESSAGE HTTP Server 'Gateway Timeout': http://download.aptana.com/studio3-rcp/plugin/update/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpClient connection error response code 504.
+	at org.eclipse.ecf.provider.filetransfer.httpclient.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:249)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2014-06-04 21:47:51.406
+!MESSAGE HttpClient connection error response code 504.

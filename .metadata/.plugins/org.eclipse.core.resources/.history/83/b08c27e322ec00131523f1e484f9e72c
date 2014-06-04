@@ -12,14 +12,13 @@
 		<meta name="Robots" content="index,follow" />
 
 		<link rel="stylesheet" href="css/main.css" type="text/css" />
-		<link rel="stylesheet" href="css/entry.css" type="text/css" />
 		<link rel="stylesheet" href="css/dropdown.css" type="text/css" />
 		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
 		<title>JavaScript - Begins</title>
 
-		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-1.10.1.min"></script>
 		<script type="text/javascript" src="js/WebsocketTransport.js"></script>
 		<script type="text/javascript" src="js/jssip.js"></script>
 		<script type="text/javascript" src="js/chat.js"></script>
@@ -139,17 +138,13 @@
 				<h2>Multi level dropdown menu in Bootstrap 3</h2>
 				<hr> -->
 				<div class="dropdown">
-					<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" > Dropdown <span class="caret"></span> </a>
+					<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="http://bootsnipp.com/page.html"> Dropdown <span class="caret"></span> </a>
 					<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
 						<li>
 							<a href="#">Some action</a>
 						</li>
 						<li>
-							<div class="monster">
-								Controller
-								<img class="solida" src="https://www.google.pl/logos/doodles/2014/25th-anniversary-of-first-free-elections-in-poland-5727753051570176-hp.jpg" />
-								</div>
-							<!-- <a href="#">Some other action</a> -->
+							<a href="#">Some other action</a>
 						</li>
 						<li class="divider"></li>
 						<li class="dropdown-submenu">
