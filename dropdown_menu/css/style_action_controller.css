@@ -1,0 +1,90 @@
+.cl_ac_action_icon_close:hover{
+	background-color: #00c9ff;
+}
+
+.cl_ac {
+    height: 34px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    border-bottom: 1px solid #00C9FF;
+}
+.cl_ac_visible {
+    display: inline-flex;
+}
+.cl_ac_invisible {
+    display: none;
+}
+
+.cl_ac:hover {
+    background-color: white;
+    color: black;
+}
+.cl_ac_active {
+    color: white;
+    background-color: #00C9FF;
+    border-bottom: 1px solid #ecf0ef;
+}
+.cl_ac_inactive {
+    color: #000000;
+    background-color: #ecf0ef
+}
+.cl_ac_other {
+    background-color: white;
+    color: #000000;
+}
+.cl_ac_icon_box {
+    float: left;
+    height: 100%;
+    width: 40px;
+}
+.cl_ac_icon {
+    width: 27px;
+    height: 28px;
+    margin-top: 3px;
+}
+
+.cl_ac_text_box {
+    display: inline-flex;
+    float: left;
+    width: 100%;
+}
+    .cl_ac_text {
+        font-size: 0.875em;
+        font-weight: 500px;
+        margin-top: 7px;
+        margin-left: 7px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        cursor: default;
+    }
+
+.cl_ac_action_icon_box {
+    float: right;
+    width: 34px;
+    height: 100%;
+}
+.cl_ac_action_icon_box_visible {
+    visibility: visible;
+}
+.cl_ac_action_icon_box_invisible {
+    visibility: hidden;
+}
+    .cl_ac_action_icon_close {
+        background-image: url('../img/x_k.png');
+        background-position: center;
+        background-repeat: no-repeat;        
+        margin-top: 6px;
+        width: 20px;
+        height: 20px;
+    }
+    .cl_ac_action_icon_progress {
+        background-image: url('../img/progress_gray.gif');
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 23px;
+        height: 23px;
+        margin-top: 5px;
+    }
+    
